@@ -24,7 +24,7 @@ def call_sport():
     name = input("Please add your name: ")
     sport = input("Please add your favourite sports name: ")
     if (sport == ""):
-        sport = 'Badminton'
+        sport = 'Throwball'
     if (name):
         response[name] = sport.lower()
         write_json(response)
