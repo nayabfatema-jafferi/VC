@@ -23,8 +23,8 @@ def write_json(data,filename = '../response.json'):
 def call_sport():
     name = input("Please add your name: ")
     sport = input("Please add your favourite sports name: ")
-    if (sport == "Basketball"):
-        sport = 'Cricket'
+    if (sport == ""):
+        sport = 'Badminton'
     if (name):
         response[name] = sport.lower()
         write_json(response)
